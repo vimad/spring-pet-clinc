@@ -4,7 +4,7 @@
 
     <groupId>com.springframework</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -44,6 +44,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -54,7 +55,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/vimad/spring-pet-clinc.git</developerConnection>
-        <tag>spring-pet-clinic-0.0.1</tag>
+        <tag>spring-pet-clinic-0.0.2</tag>
     </scm>
 
 </project>
